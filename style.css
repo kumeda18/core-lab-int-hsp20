@@ -19,7 +19,8 @@ a{
 }
 
 h1{
-
+    font-family:'Helvetica Neue', sans-serif;
+    size:4rem;
 }
 
 .section {
