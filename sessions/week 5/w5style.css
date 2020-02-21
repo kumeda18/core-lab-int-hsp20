@@ -1,0 +1,160 @@
+html {
+    font-size: 1rem;
+    font-family: 'Amiri', serif;
+    background-color: #FDF8E8;
+}
+
+body {
+    padding: 5rem 0;
+    line-height: 1;
+
+}
+
+main {
+    width: 80vw;
+    margin: 0 auto
+}
+
+section {
+    background: #fff;
+    border-radius: 50px / 50px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    display: block;
+    o
+}
+
+
+#ds-container {
+    display: grid;
+    grid-template-columns: 3fr 6fr 1fr;
+    grid-auto-rows: min-content;
+    grid-gap: 2rem;
+}
+
+#main-content {
+    grid-column: 2/4;
+    font: inherit;
+    display: block;
+}
+
+#left-sidebar {
+    grid-column: 2/4;
+}
+
+#right-sidebar {
+    grid-column: 3 / 4;
+}
+
+.section-label {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.section-break {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 3rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 1.25rem;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 3.375rem;
+}
+
+h3 {
+    font-size: 2.25rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+p, li {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.primary-hue {
+    display: flex;
+    padding: 4rem 1rem;
+    color: black;
+    font-family: Montserrat;
+    border-radius: 50px 50px 0px 0px;
+}
+
+.primary-hue > div {
+    width: 33%;
+}
+
+.secondary-hue {
+    display: flex;
+    padding: 2.5rem 1rem;
+    color: #ffffff;
+    font-family: Montserrat;
+}
+
+.secondary-hue > div {
+    width: 33%;
+}
+
+.accent-hue > div {
+    width: 33%;
+}
+
+.accent-hue {
+    display: flex;
+    padding: 1.5rem 1rem;
+    color: #ffffff;
+    font-family: Montserrat;
+    border-radius: 0px 0px 50px 50px;
+}
+
+.color-gray {
+    text-align: center;
+    background-color: #ECDFC9;
+}
+
+.color-medium-brown {
+    text-align: center;
+    background-color: #F2B999;
+}
+
+.color-deep-brown {
+  text-align: center;
+    background-color: #F2AB91;
+}
+
+.color-medium-yellow {
+  text-align: center;
+    background-color: #D9695F;
+}
+
+.color-bright-yellow {
+  text-align: center;
+    background-color: #A62A2A ;
+}
+
+.button{
+  text-align: center;
+  display: table;
+  color: white;
+  background-color: #D9695F;
+  width: 125px;
+  border-radius: 50px/50px;\
+}
