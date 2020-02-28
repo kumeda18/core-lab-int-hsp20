@@ -1,0 +1,7 @@
+img{
+	display: inline-block;
+  width: 1050px;
+  height: 625px;
+  object-fit: cover;
+  align-content: center;
+}
