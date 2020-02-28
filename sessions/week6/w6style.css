@@ -1,6 +1,6 @@
 html {
     font-size: 1rem;
-    font-family: 'Work Sans', serif;
+    font-family: 'Work Sans', sans-serif;
     background-color: #FDF8E8;
 }
 
@@ -100,7 +100,7 @@ p, li {
     display: flex;
     padding: 4rem 1rem;
     color: black;
-    font-family: 'Work Sans', serif;
+    font-family: 'Work Sans', sans-serif;
     border-radius: 50px 50px 0px 0px;
 }
 
@@ -112,7 +112,7 @@ p, li {
     display: flex;
     padding: 2.5rem 1rem;
     color: #ffffff;
-    font-family: 'Work Sans', serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .secondary-hue > div {
@@ -127,7 +127,7 @@ p, li {
     display: flex;
     padding: 1.5rem 1rem;
     color: #ffffff;
-    font-family: 'Work Sans', serif;
+    font-family: 'Work Sans', sans-serif;
     border-radius: 0px 0px 50px 50px;
 }
 
@@ -268,7 +268,7 @@ input:checked + .slider:before {
 
 /* Dropdown Button */
 .dropbtn {
-     font-family: 'Work Sans', serif;
+     font-family: 'Work Sans', sans-serif;
     text-align: center;
     width: 125px;
 border-radius: 50px/50px;
