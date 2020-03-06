@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Karen's Design System</title>
+	<link rel="stylesheet" type="text/css" href="w7style.css">
+	<link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+	<main>
+		<div id="ds-container">
+			<section>
+			<div class="left sidebar">
+				<h2>Design System</h2>
+					<h4>Karen Umeda</h4>
+					<p>This is my design system featuring peachy color palette and Work Sans type.</p>
+					<p>Work Sans is a free, open-source typeface designed by Australian type designer Wei Huang. It was commissioned by Google Fonts and released in 2015. This style of sans-serif influenced by early grotesques is quite popular at the moment, so I’m predicting that we’ll start to see Work Sans used all over the web in the coming months.</p>
+				</div>
+				</section>
+		<div id="main-content">
+		<section>
+			<h3 class="section-label">Styles</h3>
+					<h4 class="section break">Colors</h4>
+			<div class="primary-hue color-gray"> 
+					<div> #ECDFC9</div>
+				</div>
+			<div class="secondary-hue color-medium-brown">
+					<div>#F2B999</div>
+				</div>
+			<div class="secondary-hue color-deep-brown">
+					<div>#F2AB91</div>
+				</div>
+			<div class="secondary-hue color-medium-yellow">
+					<div>#D9695F</div>
+				</div>
+			<div class="accent-hue color-bright-yellow">
+					<div>#A62A2A</div>
+				</div>
+			<h4 class="section-break">Typography</h4>
+			<h1>H1 headline</h1>
+			<h2>H2 headline</h2>
+			<h3>H3 headline</h3>
+			<h4>H4 headline</h4>
+			<h5>H5 headline</h5>
+			<p>Work Sans is a free, open-source typeface designed by Australian type designer Wei Huang. It was commissioned by Google Fonts and released in 2015. This style of sans-serif influenced by early grotesques is quite popular at the moment, so I’m predicting that we’ll start to see Work Sans used all over the web in the coming months.</p>
+			
+		</section>
+
+		<section>
+				<h3 class="section-label">Components</h3>
+					<div class="buttonp">
+							<p>primary</p>
+						</div>
+						<h4 class="section-break2"></h4>
+					<div class="buttons">
+							<p>secondary</p>
+						</div>
+					<h4 class="section-break2"></h4>	
+					<div class="buttond">
+						<p>disabled</p>
+					</div>
+					<h4 class="section-break2"></h4>
+					<div class="dropdown">
+					  <button class="dropbtn">Dropdown</button>
+					  <h4 class="section-break2"></h4>
+					  <div class="dropdown-content">
+					    <a href="#">Link 1</a>
+					    <a href="#">Link 2</a>
+					    <a href="#">Link 3</a>
+					  </div>
+					</div>
+					<h4 class="section-break2"></h4>
+					<div class="center">
+						<label class="switch">
+						  <input type="checkbox">
+						  <span class="slider round"></span>
+						</label>
+					</div>
+
+					<h4 class="section-break"></h4>
+					 <div class="loader"></div> 
+					 <h4 class="section-break"></h4>
+
+					<form action="/action_page.php" method="get" name="myForm" style="font-family: 'Work Sans', serif;font-size: 1rem;color: #A62A2A;>
+					  <label for="fname">First Name:</label>
+					  <input type="text" id="fname" name="fname" ><br><br>
+					  <label for="lname">Last Name:</label>
+					  <input type="text" id="lname" name="lname"><br><br>
+					</form>
+				<p>Buttons should be rounded and they should be secondary colors. If needed, the accent color would work as well. </p>
+			</section>
+
+		<section>
+				<h3 class="section-label">Design Patterns</h3>
+				<h4>Profile Card</h4>
+				<div id="pc">
+					<img id="pci" src="https://cdn.glitch.com/89791386-a5a8-48b2-a108-0200ea591c95%2Fblank-profile-picture-973460_960_720.webp?v=1582929345175">
+					<h4>Jane Doe</h4>
+					<p>Maecenas justo lacus, lobortis nec lacus eget, facilisis vulputate quam. Nam eget diam at mauris hendrerit mattis. Nunc et consectetur magna, a finibus leo. Donec tincidunt eu lectus ut fringilla. Vivamus massa lacus, pharetra non laoreet id, porttitor.</p>
+						<div class="buttonp">
+								<p>primary</p>
+							</div>
+				</div>
+				<h4 class="section-break"></h4>
+				<h4>Card w/ Image</h4>
+				<div id="cwi">
+					<img id="cwii" src="https://cdn.glitch.com/89791386-a5a8-48b2-a108-0200ea591c95%2Fdefault-image.jpg?v=1582931065220">
+					<h4>Headline!</h4>
+					<p>Curabitur blandit tempus porttitor. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+					<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Etiam porta sem malesuada magna mollis euismod. Vestibulum id ligula porta felis euismod semper.</p>
+					</div>
+				<h4 class="section-break"></h4>
+				<div class="signup">
+					<p>Please fill in this form to create an account</p>
+					<hr>
+					<label for="email">
+					<b>Email</b>	
+					</label>
+					<input type="text" placeholder="Enter Email" name="email" required="">
+					<b>Password</b>
+					<label for="psw"></label>
+					<input type="password" placeholder="Enter Password" name="psw" required="">
+					<b>Repeat Password</b>
+					<label for="psw-repeat"></label>
+					<input type="password" placeholder="Repeat Password" name="psw-repeat" required="">
+					<label>
+						<input type="checkbox" name="remember" style="margin-bottom: 15px">
+						Remember me
+					</label>
+					<div class="clearfix">
+						<button class="cancel" type="button">Cancel</button>
+						<button class="signupb" type="submit">Sign Up</button>
+					</div>
+				</div>	
+			</section>
+		<section>
+				<h3 class="section-label">Conetent</h3>
+				<p>Use 40-60 symbols in a line of text. All font sizes are defined in the guide — you need only follow the guide. Provide enough space between paragraphs</p>
+				<h4>Spacings</h4>
+				<p>8pt
+				All spacing we use are the multiple of 8: 8 / 16 / 24 / 32 / 40 / 48 /... 8*n.
+
+				You can use 4 on a very exceptional basis. The spacings have their logic — two unrelated things must be far away. Layouts need to breathe. The bigger the object, the bigger the space around it.</p>
+			</section>
+		<section>
+				<h3 class="section-label">Layout</h3>
+				<p>Our grid is copmosed of three vertical columns or any columns in the multiple of 3. Horizontally we use 2 columns or columns in multiples of 2.</p>
+			</section>
+		<section>
+				<h3 class="section-label">Usability</h3>
+				<p>Lorem Ipsum</p>
+			</section>	
+
+		</div>
+
+	</div>
+</main>
+</body>
+</html>
