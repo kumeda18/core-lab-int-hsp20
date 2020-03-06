@@ -405,5 +405,7 @@ input[type="password"]{
 .signupb{
     background-color: #F2B999;
     padding: 14px 20px;
-
+}
+b{
+  font: inherit;
 }
