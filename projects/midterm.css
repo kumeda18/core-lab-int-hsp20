@@ -1,0 +1,157 @@
+html {
+    font-size: 1rem;
+    font-family: 'Work Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 18pt;
+}
+
+
+h5 {
+    font-size: 14pt;
+}
+
+p, li {
+   font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+#ds-container {
+    display: inline-grid;
+    grid-gap: 2rem;
+    grid-column: 1/2;
+    grid-template-columns:auto;
+    grid-template-columns: 400px;
+    margin-left: 2rem;
+    border-color: black;
+    border-style: solid;
+    box-shadow:5px 5px;
+}
+
+
+.section-break {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 3rem;
+}
+
+.section-break2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 1.5rem;
+}
+
+.qsmain{
+    border-radius: 25px / 25px;
+	display: inline-grid;
+	margin-left: 1rem;
+    background-color: white;
+    padding-left: 2rem;
+    padding-bottom: 1.5rem;
+    float: right;
+    padding-right: 2rem;
+    margin-right: 2rem;
+    grid-column: 2/3;
+    grid-template-columns:1075px;
+    box-shadow: 5px 5px;
+    margin-bottom: 2rem;
+     border-style: solid;
+
+}
+
+.buttonp{
+    float: left;
+    margin-right: 1rem;
+  text-align: center;
+  display: table;
+  color: white;
+  background-color:#ff7a59;
+  width: 125px;
+  border-radius: 50px/50px;
+  height: 5px;
+}
+
+label{
+    display: inline;
+}
+
+input{
+    display: inline;
+    border-color:#ff7a59;
+    border-style: solid;
+    border-radius: 25px / 25px;
+}
+
+#register, #verify, #send, #qs, #disclaimer,#ds-container{
+    grid-column: 1/2;
+	background-color: white;
+	border-radius: 25px / 25px;
+	padding: 1rem;
+    grid-template-columns: 400px;
+}
+}
+
+#register{
+	margin-left: 1rem;
+     width: 90%;
+}
+
+#verify{
+	margin-left: 1rem;
+      width: 90%;
+}
+
+#send{
+		margin-left: 1rem;
+          width: 90%;
+}
+
+#qs{
+	margin-left: 1rem;
+      width: 90%;
+}
+
+#disclaimer{
+	margin-left: 1rem
+      width: 90%;
+}
+
+.inline{
+    display: inline;
+}
+
+legend{
+  font-size: 14pt;  
+}
+
+#title{
+    background-color: white;
+    border-radius: 25px / 25px;
+    margin: 1rem;
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+    align-content: center;
+}
+
