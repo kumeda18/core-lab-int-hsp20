@@ -75,6 +75,7 @@ body {
 .output {
   font-style: normal;
   font-variation-settings: "slnt" var(--text-slant);
+  font-variation-settings: "wdth"  var(--text-width);
   font-weight: 400;
 }
 
