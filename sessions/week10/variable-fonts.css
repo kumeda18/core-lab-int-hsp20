@@ -1,9 +1,8 @@
 /* Load the variable font */
 @font-face {
   font-family: 'Abril Fatface', cursive;
-  src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/57225/Roboto-VF.woff2') format('woff2-variations');
+  src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/57225/Abril-Fatface.woff2') format('woff2-variations');
   font-stretch: 75% 100%;
-  /*font-style: oblique 0deg 12deg;*/
   font-weight: 100 900;
 }
 
