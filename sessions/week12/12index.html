@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Karen U.T. | Design Sysstem</title>
+    <link href="../week12/12reset.css" rel="stylesheet" type="text/css">
+    <link href="../week12/12design-system.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+
+  <main>
+	<div id="ds-container">
+		<div id="left-sidebar"><h2>Design System</h2>
+      <h4>Karen Umeda</h4>
+        <p style="color: black;">Work Sans is a free, open-source typeface designed by Australian type designer Wei Huang. It was commissioned by Google Fonts and released in 2015. This style of sans-serif influenced by early grotesques is quite popular at the moment, so I’m predicting that we’ll start to see Work Sans used all over the web in the coming months.</p>
+      <p></p></div>
+		<div id="main-content">
+      <section >
+        <h3 class="section-label">Adjustments</h3>
+        <div>
+        <label>Change Background</label>
+        <button type="button" onclick="changeBodyBg('#F2B999');">#F2B999</button>
+        <button type="button" onclick="changeBodyBg('#F2AB91');">#F2AB91</button>
+        <button type="button" onclick="changeBodyBg('#D9695F');">#D9695F</button>
+        <button type="button" onclick="changeBodyBg('#ECDFC9);">#ECDFC9</button>
+
+    </div>
+    <br>
+    <div>
+        <label>Change Heading text color</label>
+        <button type="button" onclick="changeHeaderColor('#F2B999');">#F2B999</button>
+        <button type="button" onclick="changeHeaderColor('#F2AB91');">#F2AB91</button>
+        <button type="button" onclick="changeHeaderColor('#D9695F');">#D9695F</button>
+        <button type="button" onclick="changeHeaderColor('#A62A2A');">#A62A2A</button>
+
+    </div>
+      <div>
+        <label>Change Section Background</label>
+        <button type="button" onclick="changeSectionBG('#F2B999');">#F2B999</button>
+        <button type="button" onclick="changeSectionBG('#F2AB91');">#F2AB91</button>
+        <button type="button" onclick="changeSectionBG('#D9695F');">#D9695F</button>
+        <button type="button" onclick="changeSectionBG('#A62A2A');">#A62A2A</button>
+
+    </div>
+      </section>
+      <section id="section">
+        <h3 class="section-label">Styles</h3>
+        <h4 class="section-break">Typography</h4>
+        <h1 class="header">H1 headline</h1>
+        <h2 class="header">H2 headline</h2>
+        <h3 class="header">H3 headline</h3>
+        <h4 class="header">H4 headline</h4>
+        <h5 class="header">H5 headline</h5>
+        <p style="color: black;">This is what body copy looks like. Strategic design means designing for a specific objective. More often than not, that objective is growing a business. But it’s important to recognize that there’s a difference between being strategic by being the conduit between the business and the user, and designing for the business alone.</p>
+
+        <h4 class="section-break">Colors</h4>
+        <div class="primary-hue color-gray"><div></div><div>#ECDFC9<br></div></div>
+        <div class="primary-hue color-light-gray"><div></div><div>#F2B999<br></div></div>
+        <div class="secondary-hue color-medium-brown"><div></div><div>#F2AB91<br></div></div>
+        <div class="secondary-hue color-deep-brown"><div></div><div>#D9695F<br></div></div>
+        <div class="secondary-hue color-medium-yellow"><div></div><div>#A62A2A<br></div></div>
+      
+      </section>
+      <section>
+        <h3 class="section-label">Components</h3>
+        <div class="component-group">
+          <article class="cg-1">
+            <button class="button button1">Primary</button>
+            <button class="button button2">Secondary</button>
+            <button class="button button3">Disabled</button>
+        </article>
+        <article class="cg-2">
+          <form>
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="fname">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lname">
+          </form>
+        </article>
+        <article class="cg-3">
+          <div class="dropdown">
+          <button class="dropbtn">Dropdown</button>
+           <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+             </div>
+          </div>
+        </article>
+          <article class="cg-1">
+            <label class="switch">
+            <input type="checkbox" checked>
+            <span class="slider round"></span>
+            </label>
+        </article>
+        <article class="cg-2">
+         <label for="start">Start date:</label>
+          <input type="date" class="pointer" id="start" name="trip-start"
+       value="2020-02-21"
+       min="2018-01-01" max="2020-11-07">
+        </article>
+        <article class="cg-3">
+          <div class="loader"></div>
+          </article>
+      </section>
+       <section>
+        <h3 class="section-label">Design patterns</h3>
+        <div class="design-patterns-group">
+            <article>
+              <h4>Card with image</h4>
+              <div class="card-image">
+                <img src="../../images/symbiotic-seeing-2.jpg" />
+                <h3>This is the card headline</h3>
+                <p style="color: white;">Curabitur blandit tempus porttitor. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+
+<p style="color: white;">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Etiam porta sem malesuada magna mollis euismod. Vestibulum id ligula porta felis euismod semper.</p>
+              </div>
+            </article>
+            <article>
+              <h4>Profile card</h4>
+              <div class="profile-card">
+                <img src="../../images/profile-pic.jpg" />
+                <h5 class="profile-name text-white">Diane Smith</h5>
+                <p class="title text-white">Campaign Supervisor</p>
+                <p class="text-white">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                <button class="button button1">Contact Diane</button>
+
+              </div>
+            </article>
+            <article>
+              <h4>Sign up form</h4>
+              <form action="/action_page.php" style="border:1px solid #D9695F; border-radius: 25px 25px;">
+  <div class="sign-up-container">
+    <p>Please fill in this form to create an account.</p>
+    <hr>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+    
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    </label>
+
+    <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+  </div>
+</form>
+            </article>
+             <article>
+              <h4>Profile card</h4>
+              <div class="profile-card">
+                <img src="../../images/profile-pic.jpg" />
+                <h5 class="profile-name text-white">Diane Smith</h5>
+                <p class="title text-white">Campaign Supervisor</p>
+                <p class="text-white">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                <button class="button button1">Contact Diane</button>
+
+              </div>
+            </article>
+        </div>
+      </section>
+       <section>
+        <h3 class="section-label">Regions</h3>
+        <p>TK</p>
+      </section>
+       <section>
+        <h3 class="section-label">Content</h3>
+        <p>TK</p>
+      </section>
+       <section>
+        <h3 class="section-label">Layout</h3>
+        <p>TK</p>
+      </section>
+      <section>
+        <h3 class="section-label">Usability</h3>  
+        <p>TK</p>
+      </section>
+    </div>
+	</div>
+  </main>
+
+  </body>
+
+    <script type="text/javascript" src="../week12/javascript.js"></script>
+
+
+</html>
